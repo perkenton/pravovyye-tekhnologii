@@ -1,1 +1,5 @@
-.header__menu-item {}
+.header__menu-item {
+  display: inline-block;
+  margin-right: 50px;
+  display: inline-block;
+}

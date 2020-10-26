@@ -1,1 +1,14 @@
-.header__contacts-phone {}
+.header__contacts-phone {
+  font-family: 'Commissioner', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
