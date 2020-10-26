@@ -1,2 +1,21 @@
+@import url(../blocks/activities/activities.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/banner/banner.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cost/cost.css);
+@import url(../blocks/doing/doing.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/introduction/introduction.css);
+@import url(../blocks/picture/picture.css);
+@import url(../blocks/principles/principles.css);
+@import url(../blocks/pros/pros.css);
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/services/services.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/trust/trust.css);
+
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);

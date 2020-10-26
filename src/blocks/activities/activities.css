@@ -1,1 +1,8 @@
-.activities {}
+@import url(./__card/activities__card.css);
+@import url(./__card-image/activities__card-image.css);
+@import url(./__card-more/activities__card-more.css);
+@import url(./__card-title/activities__card-title.css);
+
+.activities {
+
+}

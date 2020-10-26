@@ -1,1 +1,9 @@
+@import url(./__card/principles__card.css);
+@import url(./__card-arrow-left/principles__card-arrow-left.css);
+@import url(./__card-arrow-right/principles__card-arrow-right.css);
+@import url(./__card-image/principles__card-image.css);
+@import url(./__swiper-container/principles__swiper-container.css);
+@import url(./__swiper-wrapper/principles__swiper-wrapper.css);
+@import url(./__text/principles__text.css);
+
 .principles {}

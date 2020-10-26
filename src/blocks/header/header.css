@@ -1,1 +1,13 @@
+@import url(./__contacts/header__contacts.css);
+@import url(./__contacts-contrast-icon/header__contacts-contrast-icon.css);
+@import url(./__contacts-lang/header__contacts-lang.css);
+@import url(./__contacts-phone/header__contacts-phone.css);
+@import url(./__contacts-phone-icon/header__contacts-phone-icon.css);
+@import url(./__logo/header__logo.css);
+@import url(./__menu/header__menu.css);
+@import url(./__menu-item/header__menu-item.css);
+@import url(./__menu-link/header__menu-link.css);
+@import url(./__nav/header__nav.css);
+@import url(./__search-icon/header__search-icon.css);
+
 .header {}

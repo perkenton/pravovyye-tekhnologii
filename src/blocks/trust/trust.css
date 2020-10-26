@@ -1,1 +1,6 @@
+@import url(./__card/trust__card.css);
+@import url(./__card-list/trust__card-list.css);
+@import url(./__card-list-item/trust__card-list-item.css);
+@import url(./__card-text/trust__card-text.css);
+
 .trust {}

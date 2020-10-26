@@ -1,1 +1,5 @@
+@import url(./__logo/clients__logo.css);
+@import url(./__logo-block/clients__logo-block.css);
+@import url(./__text/clients__text.css);
+
 .clients {}

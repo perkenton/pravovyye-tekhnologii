@@ -1,1 +1,8 @@
-.services {}
+@import url(./__card/services__card.css);
+@import url(./__card-more/services__card-more.css);
+@import url(./__card-title/services__card-title.css);
+@import url(./__text/services__text.css);
+
+.services {
+
+}

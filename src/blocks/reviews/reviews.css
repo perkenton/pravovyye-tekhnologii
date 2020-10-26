@@ -1,1 +1,17 @@
-.reviews {}
+@import url(./__card/reviews__card.css);
+@import url(./__card-arrow-left/reviews__card-arrow-left.css);
+@import url(./__card-arrow-right/reviews__card-arrow-right.css);
+@import url(./__card-position/reviews__card-position.css);
+@import url(./__card-text/reviews__card-text.css);
+@import url(./__card-text-block/reviews__card-text-block.css);
+@import url(./__card-title/reviews__card-title.css);
+@import url(./__pagination/reviews__pagination.css);
+@import url(./__pagination-item/reviews__pagination-item.css);
+@import url(./__pagination-item/_active/reviews__pagination-item_active.css);
+@import url(./__read-more/reviews__read-more.css);
+@import url(./__swiper-container/reviews__swiper-container.css);
+@import url(./__swiper-wrapper/reviews__swiper-wrapper.css);
+
+.reviews {
+
+}

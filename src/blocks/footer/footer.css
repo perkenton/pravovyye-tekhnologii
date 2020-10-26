@@ -1,1 +1,19 @@
+@import url(./__about-block/footer__about-block.css);
+@import url(./__about-block-icon/footer__about-block-icon.css);
+@import url(./__about-block-icons/footer__about-block-icons.css);
+@import url(./__about-block-link-arrow/footer__about-block-link-arrow.css);
+@import url(./__about-block-subtitle/footer__about-block-subtitle.css);
+@import url(./__about-block-text/footer__about-block-text.css);
+@import url(./__about-block-title/footer__about-block-title.css);
+@import url(./__contacts/footer__contacts.css);
+@import url(./__contacts-card/footer__contacts-card.css);
+@import url(./__contacts-link/footer__contacts-link.css);
+@import url(./__contacts-offices/footer__contacts-offices.css);
+@import url(./__contacts-subtitle/footer__contacts-subtitle.css);
+@import url(./__contacts-text/footer__contacts-text.css);
+@import url(./__contacts-title/footer__contacts-title.css);
+@import url(./__web-focus/footer__web-focus.css);
+@import url(./__working-hours/footer__working-hours.css);
+@import url(./__wrapper/footer__wrapper.css);
+
 .footer {}

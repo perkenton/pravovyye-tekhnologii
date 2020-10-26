@@ -1,1 +1,7 @@
+@import url(./__card/advantages__card.css);
+@import url(./__card-image/advantages__card-image.css);
+@import url(./__card-long/advantages__card-long.css);
+@import url(./__card-long-text/advantages__card-long-text.css);
+@import url(./__card-text/advantages__card-text.css);
+
 .advantages {}
