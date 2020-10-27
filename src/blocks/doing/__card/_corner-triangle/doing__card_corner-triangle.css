@@ -1,1 +1,14 @@
-.doing__card_corner-triangle {}
+.doing__card_corner-triangle {
+  position: relative;
+}
+
+.doing__card_corner-triangle::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to left bottom, transparent 50%, rgba(222, 195, 119, 1) 0) 100% 0 no-repeat;
+  width: 70px;
+  height: 70px;
+  transform: rotate(180deg);
+}

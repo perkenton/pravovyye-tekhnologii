@@ -2,6 +2,7 @@
 @import url(./_m/title_m.css);
 @import url(./_width-l/title_width-l.css);
 @import url(./_width-m/title_width-m.css);
+@import url(./_width-s/title_width-s.css);
 
 .title {
   font-family: 'Commissioner', Arial, Helvetica, sans-serif;

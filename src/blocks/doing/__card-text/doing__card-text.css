@@ -1,1 +1,10 @@
-.doing__card-text {}
+.doing__card-text {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 15px;
+  margin-bottom: 0;
+}
