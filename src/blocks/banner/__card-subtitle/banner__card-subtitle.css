@@ -1,1 +1,13 @@
-.banner__card-subtitle {}
+.banner__card-subtitle {
+  width: 470px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}

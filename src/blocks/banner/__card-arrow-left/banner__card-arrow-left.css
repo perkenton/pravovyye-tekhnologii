@@ -1,1 +1,19 @@
-.banner__card-arrow-left {}
+.banner__card-arrow-left {
+  width: 11px;
+  height: 18px;
+  background-image: url("../../../images/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  bottom: 121px;
+  left: 50%;
+  transform: translateX(-580px);
+  transition: .2s linear;
+}
+
+.banner__card-arrow-left:hover {
+  transform: translateX(-580px) scale(1.3);
+}

@@ -1,0 +1,7 @@
+.banner__card-text-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

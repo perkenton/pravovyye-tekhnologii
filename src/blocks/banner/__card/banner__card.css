@@ -1,1 +1,9 @@
-.banner__card {}
+.banner__card {
+  height: 650px;
+  position: relative;
+  background-image: url('../../../images/banner-image-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*padding-top: 160px;*/
+}

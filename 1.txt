@@ -1,0 +1,12 @@
+сглаживание шрифтов
+
+шрифт Commissioner
+
+
+"Roboto Slab", "Times New Roman", Times, serif;
+'Commissioner', Arial, Helvetica, sans-serif;
+
+
+letter-spacing: 0.03em по пп
+
+hover 

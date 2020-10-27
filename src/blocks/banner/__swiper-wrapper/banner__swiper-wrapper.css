@@ -1,1 +1,3 @@
-.banner__swiper-wrapper {}
+.banner__swiper-wrapper {
+  position: relative;
+}
