@@ -1,1 +1,19 @@
-.principles__card-arrow-right {}
+.principles__card-arrow-right {
+  width: 17px;
+  height: 30px;
+  background-image: url("../../../images/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: -42px;
+  transform: translateY(-50%);
+  transition: .2s linear;
+}
+
+.principles__card-arrow-right:hover {
+  transform: translateY(-50%) scale(1.3);
+}

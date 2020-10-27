@@ -1,1 +1,18 @@
-.reviews__card-arrow-right {}
+.reviews__card-arrow-right {
+  width: 10px;
+  height: 18px;
+  background-image: url("../../../images/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 24px;
+  transition: .2s linear;
+}
+
+.reviews__card-arrow-right:hover {
+  transform: scale(1.3);
+}

@@ -1,1 +1,18 @@
-.reviews__read-more {}
+.reviews__read-more {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: .2s linear;
+}
+
+.reviews__read-more:hover {
+  color: #DEC377;
+}

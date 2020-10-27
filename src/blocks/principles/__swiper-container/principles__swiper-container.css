@@ -1,1 +1,3 @@
-.principles__swiper-container {}
+.principles__swiper-container {
+  position: relative;
+}

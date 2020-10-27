@@ -5,5 +5,9 @@
 @import url(./__swiper-container/principles__swiper-container.css);
 @import url(./__swiper-wrapper/principles__swiper-wrapper.css);
 @import url(./__text/principles__text.css);
+@import url(./__text-block/principles__text-block.css);
 
-.principles {}
+.principles {
+  max-width: 1170px;
+  margin: 0 auto;
+}
