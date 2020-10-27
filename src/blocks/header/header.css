@@ -1,6 +1,9 @@
 @import url(./__contacts/header__contacts.css);
 @import url(./__contacts-contrast-icon/header__contacts-contrast-icon.css);
+@import url(./__contacts-contrast-icon-link/header__contacts-contrast-icon-link.css);
 @import url(./__contacts-lang/header__contacts-lang.css);
+@import url(./__contacts-lang/_arrow/header__contacts-lang_arrow.css);
+@import url(./__contacts-lang/_sub/header__contacts-lang_sub.css);
 @import url(./__contacts-lang-block/header__contacts-lang-block.css);
 @import url(./__contacts-lang-subtitle/header__contacts-lang-subtitle.css);
 @import url(./__contacts-phone/header__contacts-phone.css);
@@ -12,6 +15,7 @@
 @import url(./__menu-link/header__menu-link.css);
 @import url(./__nav/header__nav.css);
 @import url(./__search-icon/header__search-icon.css);
+@import url(./__search-icon-link/header__search-icon-link.css);
 
 .header {
   text-align: center;

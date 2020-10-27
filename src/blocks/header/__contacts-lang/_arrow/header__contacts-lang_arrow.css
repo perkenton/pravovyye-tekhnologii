@@ -1,0 +1,11 @@
+.header__contacts-lang_arrow {
+  position: relative;
+}
+
+.header__contacts-lang_arrow::after {
+  content: url('../../../../images/header-arrow-down.svg');
+  position: absolute;
+  top: 0;
+  right: -18px;
+  padding-left: 18px;
+}

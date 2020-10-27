@@ -4,13 +4,10 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.8);
-  position: relative;
 }
 
-.header__contacts-lang::after {
-  content: url('../../../images/header-arrow-down.svg');
-  position: absolute;
-  top: 0;
-  right: -18px;
+.header__contacts-lang:hover {
+  color: #DEC377;
 }

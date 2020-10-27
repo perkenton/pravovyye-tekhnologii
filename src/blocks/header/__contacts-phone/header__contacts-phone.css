@@ -4,11 +4,17 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0.03em;
+  letter-spacing: .5px;
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
   display: inline-block;
   margin-right: 16px;
   margin-left: 16px;
   margin-top: 0;
   margin-bottom: 0;
+  transition: .2s linear;
+}
+
+.header__contacts-phone:hover {
+  color: #DEC377;
 }

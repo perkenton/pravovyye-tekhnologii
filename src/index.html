@@ -15,16 +15,17 @@
     <div class="header__contacts">
       <div class="header__contacts-lang-block">
         <span class="header__contacts-lang-subtitle">Язык</span>
-        <span class="header__contacts-lang">русский</span>
+        <a href="#" class="header__contacts-lang header__contacts-lang_arrow" id="lang">русский</a>
+        <a href="#" class="header__contacts-lang header__contacts-lang_sub">english</a>
       </div>
-      <img src="<%=require('./images/header-eye-icon.svg').default%>" alt="Версия для слабовидящих" class="header__contacts-contrast-icon">
+      <a href="#" class="header__contacts-contrast-icon-link"><img src="<%=require('./images/header-eye-icon.svg').default%>" alt="Версия для слабовидящих" class="header__contacts-contrast-icon"></a>
 
       <div class="header__contacts-phone-block">
-        <p class="header__contacts-phone">+375 (44) 755-01-01</p>
+        <a href="tel:+375447550101" class="header__contacts-phone">+375 (44) 755-01-01</a>
         <img src="<%=require('./images/header-a1-icon.svg').default%>" alt="" class="header__contacts-phone-icon">
         <img src="<%=require('./images/header-viber-icon.svg').default%>" alt="" class="header__contacts-phone-icon">
         <img src="<%=require('./images/header-whatsapp-icon.svg').default%>" alt="" class="header__contacts-phone-icon">
-        <p class="header__contacts-phone">+375 (29) 550-01-01</p>
+        <a href="tel:+375295500101" class="header__contacts-phone">+375 (29) 550-01-01</a>
         <img src="<%=require('./images/header-mts-icon.svg').default%>" alt="" class="header__contacts-phone-icon">
       </div>
     </div>
@@ -38,7 +39,7 @@
         <li class="header__menu-item"><a href="" class="header__menu-link">Инфоцентр</a></li>
         <li class="header__menu-item"><a href="" class="header__menu-link">Контакты</a></li>
       </ul>
-      <img src="<%=require('./images/header-search-icon.svg').default%>" alt="Иконка поиска" class="header__search-icon">
+      <a href="#" class="header__search-icon-link"><img src="<%=require('./images/header-search-icon.svg').default%>" alt="Иконка поиска" class="header__search-icon"></a>
     </nav>
   </header>
 

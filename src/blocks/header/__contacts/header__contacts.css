@@ -5,4 +5,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: static;
+}
+
+@media (max-width: 1200px) {
+  .header__contacts {
+    max-width: calc(100% - 36px);
+  }
 }
