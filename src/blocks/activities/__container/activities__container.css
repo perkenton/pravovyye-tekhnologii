@@ -1,0 +1,7 @@
+.activities__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 370px);
+  grid-gap: 30px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}

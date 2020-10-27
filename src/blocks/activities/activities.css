@@ -2,7 +2,11 @@
 @import url(./__card-image/activities__card-image.css);
 @import url(./__card-more/activities__card-more.css);
 @import url(./__card-title/activities__card-title.css);
+@import url(./__container/activities__container.css);
 
 .activities {
-
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
