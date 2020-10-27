@@ -1,8 +1,8 @@
 .pros__card-image {
-  padding: 23px;
+  padding: 20px;
   border-radius: 50%;
   border: 2px solid rgba(0,0,0,.2);
-  width: 70px;
-  height: 70px;
+  width: 76px;
+  height: 76px;
   object-fit: none;
 }

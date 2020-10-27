@@ -64,23 +64,23 @@
     </div>
   </section>
 
-  <section class="pros">
-    <div class="pros__card">
+  <section class="pros pros_margin-minus">
+    <div class="pros__card pros__card_width-m">
       <img src="<%=require('./images/pros-image-1.svg').default%>" alt="" class="pros__card-image">
       <p class="pros__card-title">Надежная защита</p>
     </div>
 
-    <div class="pros__card">
+    <div class="pros__card pros__card_width-m">
       <img src="<%=require('./images/pros-image-2.svg').default%>" alt="" class="pros__card-image">
       <p class="pros__card-title">Безупречная репутация</p>
     </div>
 
-    <div class="pros__card">
+    <div class="pros__card pros__card_width-m">
       <img src="<%=require('./images/pros-image-3.svg').default%>" alt="" class="pros__card-image">
       <p class="pros__card-title">Ориентированность на&nbsp;результат</p>
     </div>
 
-    <div class="pros__card">
+    <div class="pros__card pros__card_width-m">
       <img src="<%=require('./images/pros-image-4.svg').default%>" alt="" class="pros__card-image">
       <p class="pros__card-title">Абсолютная конфиденциальность</p>
     </div>
@@ -236,7 +236,7 @@
       <p class="doing__card-text">В&nbsp;своей практике, мы&nbsp;дотошно соблюдаем законность, учитываем сложившуюся правовую практику и&nbsp;правила юридической этики. Мы&nbsp;считаем, что в&nbsp;поддержке бизнеса важно учитывать конкретные проблемы клиента и&nbsp;строить сотрудничество по&nbsp;принципу тщательного изучения всех нюансов возникшей ситуации. Всегда честны и&nbsp;объективны.</p>
     </div>
 
-    <div class="doing__card doing__card_second doing__card_corner-triangle">
+    <div class="doing__card doing__card_second corner-in-corner">
       <h2 class="title title_m">Надежно защитим права и&nbsp;интересы</h2>
       <p class="doing__card-text">Заказав комплексные юридические услуги в&nbsp;ООО &laquo;МК-Правовые технологии&raquo;, можно больше не&nbsp;платить зарплату штатному юристу, страховые отчисления и&nbsp;налоги с&nbsp;его доходов. Можно не&nbsp;оплачивать отпуск, больничные и&nbsp;не&nbsp;беспокоиться о&nbsp;нахождении работника на&nbsp;рабочем месте в&nbsp;нужный момент.</p>
     </div>
@@ -342,26 +342,44 @@
 
   <section class="advantages">
     <h2 class="title title_l">Наши преимущества</h2>
-    <div class="advantages__card">
-      <img src="" alt="" class="advantages__card-image">
-      <p class="advantages__card-text"></p>
+
+    <div class="pros">
+      <div class="pros__card pros__card_width-l">
+        <img src="<%=require('./images/advantages-image-1.svg').default%>" alt="" class="pros__card-image">
+        <p class="pros__card-title">Лицензия на&nbsp;оказание юридических услуг</p>
+      </div>
+
+      <div class="pros__card pros__card_width-l">
+        <img src="<%=require('./images/advantages-image-2.svg').default%>" alt="" class="pros__card-image">
+        <p class="pros__card-title">Опытные сотрудники</p>
+      </div>
+
+      <div class="pros__card pros__card_width-l">
+        <img src="<%=require('./images/advantages-image-3.svg').default%>" alt="" class="pros__card-image">
+        <p class="pros__card-title">Коммуникативные навыки&nbsp;&mdash; без труда открываем любые двери и&nbsp;быстро решаем нужные вопросы</p>
+      </div>
+
+      <div class="pros__card pros__card_width-l">
+        <img src="<%=require('./images/advantages-image-4.svg').default%>" alt="" class="pros__card-image">
+        <p class="pros__card-title">Скрупулезный поход к&nbsp;ведению документации</p>
+      </div>
     </div>
 
-    <div class="advantages__card-long">
-      <p class="advantages__card-long-text"></p>
+    <div class="advantages__card-long corner-in-corner">
+      <p class="advantages__card-long-text">Юристы нашей компании готовы дать четкие, основанные на&nbsp;фактах, консультации, касающиеся и&nbsp;&laquo;типовой&raquo;, и&nbsp;нестандартной ситуации, опираясь на&nbsp;сложившуюся служебную практику и&nbsp;многолетний опыт. Мы&nbsp;объективно оцениваем риски и&nbsp;тщательно анализируем каждый случай.</p>
     </div>
   </section>
 
-<!--  <section class="cooperation">-->
-<!--    <div class="cooperation__text-block">-->
-<!--      <h2 class="title title_l"></h2>-->
-<!--      <ul class="cooperation__list">-->
-<!--        <li class="cooperation__list-item cooperation__list-item_first"></li>-->
-<!--        <li class="cooperation__list-item cooperation__list-item_second"></li>-->
-<!--      </ul>-->
+  <section class="cooperation">
+    <div class="cooperation__text-block">
+      <h2 class="title title_l">Организация сотрудничества</h2>
+      <ul class="cooperation__list">
+        <li class="cooperation__list-item cooperation__list-item_first">Установив контакт с&nbsp;нашим сотрудником, Вы&nbsp;оговорите нюансы предмета обсуждения и&nbsp;согласуете личную встречу.</li>
+        <li class="cooperation__list-item cooperation__list-item_second">Юрист изучит документы, необходимые для разработки стратегии решения возникшей ситуации. И&nbsp;заключит договор.</li>
+      </ul>
 
-<!--      <p class="cooperation__text"></p>-->
-<!--    </div>-->
+      <p class="cooperation__text">Также в&nbsp;нашей компании возможна удаленная форма обслуживания с&nbsp;оказанием полного комплекса юридических услуг в&nbsp;РБ через современные средства связи и&nbsp;мессенджеры.</p>
+    </div>
 
 <!--    <form class="cooperation__form">-->
 <!--      <p class="cooperation__form-title"></p>-->
@@ -372,7 +390,7 @@
 <!--      <p class="cooperation__form-text"></p>-->
 <!--      <button class="button button_yellow button_max-width"></button>-->
 <!--    </form>-->
-<!--  </section>-->
+  </section>
 
 <!--  <section class="cost">-->
 <!--    <div class="cost__container">-->

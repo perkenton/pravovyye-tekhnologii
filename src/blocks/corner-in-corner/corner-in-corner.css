@@ -1,8 +1,8 @@
-.doing__card_corner-triangle {
+.corner-in-corner {
   position: relative;
 }
 
-.doing__card_corner-triangle::after {
+.corner-in-corner::after {
   content: '';
   position: absolute;
   top: 0;
