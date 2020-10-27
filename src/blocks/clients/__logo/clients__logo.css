@@ -1,1 +1,8 @@
-.clients__logo {}
+.clients__logo {
+  transition: .4s linear;
+  filter: grayscale(100%);
+}
+
+.clients__logo:hover {
+  filter: none;
+}

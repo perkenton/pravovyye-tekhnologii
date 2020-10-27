@@ -1,1 +1,7 @@
-.clients__logo-block {}
+.clients__logo-block {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

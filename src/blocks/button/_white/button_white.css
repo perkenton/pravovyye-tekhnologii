@@ -1,1 +1,8 @@
-.button_white {}
+.button_white {
+  width: max-content;
+  border: 2px solid #DEC377;
+  background-color: #fff;
+  color: #DEC377;
+  padding: 8px 52px;
+  vertical-align: top;
+}
