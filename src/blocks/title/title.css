@@ -1,4 +1,10 @@
 @import url(./_l/title_l.css);
 @import url(./_m/title_m.css);
+@import url(./_width-l/title_width-l.css);
 
-.title {}
+.title {
+  font-family: 'Commissioner', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+}
