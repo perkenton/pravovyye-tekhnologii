@@ -1,4 +1,14 @@
 @import url(./__card/pros__card.css);
 @import url(./__card-image/pros__card-image.css);
+@import url(./__card-title/pros__card-title.css);
 
-.pros {}
+.pros {
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 270px);
+  grid-gap: 30px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -88px;
+  z-index: 1;
+}

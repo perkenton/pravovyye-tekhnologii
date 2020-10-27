@@ -1,1 +1,8 @@
-.pros__card-image {}
+.pros__card-image {
+  padding: 23px;
+  border-radius: 50%;
+  border: 2px solid rgba(0,0,0,.2);
+  width: 70px;
+  height: 70px;
+  object-fit: none;
+}
