@@ -1,1 +1,19 @@
-.services__card-more {}
+.services__card-more {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, .5);
+  margin-top: 0;
+  margin-bottom: 0;
+  align-self: flex-end;
+  transition: .2s linear;
+}
+
+.services__card-more:hover {
+  color: #DEC377;
+}

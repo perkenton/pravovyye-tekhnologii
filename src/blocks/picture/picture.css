@@ -1,1 +1,8 @@
-.picture {}
+.picture {
+  width: 100%;
+  min-height: 180px;
+  background-image: url("../../images/picture-image-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

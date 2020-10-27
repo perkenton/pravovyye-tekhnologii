@@ -4,4 +4,7 @@
 @import url(./__card-long-text/advantages__card-long-text.css);
 @import url(./__card-text/advantages__card-text.css);
 
-.advantages {}
+.advantages {
+  max-width: 1170px;
+  margin: 0 auto;
+}

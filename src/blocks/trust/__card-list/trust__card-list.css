@@ -1,1 +1,9 @@
-.trust__card-list {}
+.trust__card-list {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  margin-top: -64px;
+  margin-bottom: 0;
+  margin-left: 222px;
+}

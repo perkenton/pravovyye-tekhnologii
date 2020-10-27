@@ -5,9 +5,11 @@
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.02em;
+  text-align: left;
   text-transform: uppercase;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
+  display: block;
   margin-top: 0;
   margin-bottom: 0;
   transition: .2s linear;

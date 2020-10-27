@@ -1,1 +1,22 @@
-.trust__card-list-item {}
+.trust__card-list-item {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.trust__card-list-item::before {
+  content: url("../../../images/disc.svg");
+  position: absolute;
+  display: block;
+  padding: 4px 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(222, 195, 119, 0.4);
+  top: -5px;
+  left: -72px;
+}

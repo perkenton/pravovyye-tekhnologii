@@ -1,8 +1,16 @@
 @import url(./__card/services__card.css);
+@import url(./__card/_bright/services__card_bright.css);
+@import url(./__card/_light/services__card_light.css);
+@import url(./__card/_translucent/services__card_translucent.css);
 @import url(./__card-more/services__card-more.css);
 @import url(./__card-title/services__card-title.css);
+@import url(./__cards-list/services__cards-list.css);
 @import url(./__text/services__text.css);
+@import url(./__text-block/services__text-block.css);
 
 .services {
-
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }

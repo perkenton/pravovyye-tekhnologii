@@ -1,1 +1,10 @@
-.services__card-title {}
+.services__card-title {
+  font-family: 'Commissioner', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-top: 0;
+  margin-bottom: 0;
+}

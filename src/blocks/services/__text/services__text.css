@@ -1,1 +1,12 @@
-.services__text {}
+.services__text {
+  max-width: 770px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}

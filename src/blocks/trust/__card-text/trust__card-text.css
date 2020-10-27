@@ -1,1 +1,12 @@
-.trust__card-text {}
+.trust__card-text {
+  max-width: 470px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  margin-top: 7px;
+  vertical-align: top;
+}
