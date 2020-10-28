@@ -1,1 +1,11 @@
-.cost__text {}
+.cost__text {
+  max-width: 670px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
