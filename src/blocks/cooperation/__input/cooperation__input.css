@@ -1,1 +1,59 @@
-.cooperation__input {}
+.cooperation__input {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: .2s linear;
+}
+
+.cooperation__input:focus {
+  border-bottom: 1px solid rgba(0, 0, 0, .8);
+  outline: none;
+}
+
+.cooperation__input::-webkit-input-placeholder {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.6;
+  transition: .2s linear;
+}
+.cooperation__input::-moz-placeholder {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.6;
+  transition: .2s linear;
+}/* Firefox 19+ */
+.cooperation__input:-moz-placeholder {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.6;
+  transition: .2s linear;
+}/* Firefox 18- */
+.cooperation__input:-ms-input-placeholder {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.6;
+  transition: .2s linear;
+}
+
+.cooperation__input:focus::-webkit-input-placeholder {color: transparent}
+.cooperation__input:focus::-moz-placeholder          {color: transparent}
+.cooperation__input:focus:-moz-placeholder           {color: transparent}
+.cooperation__input:focus:-ms-input-placeholder      {color: transparent}

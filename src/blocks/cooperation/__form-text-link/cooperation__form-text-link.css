@@ -1,0 +1,15 @@
+.cooperation__form-text-link {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.5);
+  transition: .2s linear;
+}
+
+.cooperation__form-text-link:hover {
+  text-decoration: none;
+  color: #DEC377;
+}

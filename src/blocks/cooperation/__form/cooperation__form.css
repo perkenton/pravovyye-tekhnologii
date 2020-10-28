@@ -1,1 +1,13 @@
-.cooperation__form {}
+.cooperation__form {
+  max-width: 570px;
+  min-height: 365px;
+  background-color: #fff;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}

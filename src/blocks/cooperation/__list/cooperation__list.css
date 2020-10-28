@@ -1,1 +1,6 @@
-.cooperation__list {}
+.cooperation__list {
+  list-style: none;
+  padding: 0;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}

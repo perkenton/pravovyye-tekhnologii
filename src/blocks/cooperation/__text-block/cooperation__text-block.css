@@ -1,1 +1,6 @@
-.cooperation__text-block {}
+.cooperation__text-block {
+  max-width: 500px;
+  display: inline-block;
+  margin-top: -24px;
+  margin-right: 96px;
+}

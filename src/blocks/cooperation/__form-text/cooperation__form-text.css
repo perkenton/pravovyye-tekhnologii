@@ -1,1 +1,11 @@
-.cooperation__form-text {}
+.cooperation__form-text {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}

@@ -1,1 +1,16 @@
-.cooperation__list-item {}
+.cooperation__list-item {
+  max-width: 400px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px;
+  padding-left: 100px;
+}
+
+.cooperation__list-item:last-child {
+  margin-bottom: 0;
+}
