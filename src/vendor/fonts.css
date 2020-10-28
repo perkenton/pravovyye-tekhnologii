@@ -2,32 +2,32 @@
   font-family: 'Commissioner';
   font-style:  normal;
   font-weight: 400;
-  src: url("./fonts/Commissioner-regular.woff2") format("woff2"),
-       url("./fonts/Commissioner-regular.woff") format("woff");
+  src: url("./fonts/Commissioner-Regular.woff2") format("woff2"),
+       url("./fonts/Commissioner-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Commissioner';
   font-style:  normal;
   font-weight: 500;
-  src: url("./fonts/Commissioner-medium.woff2") format("woff2"),
-       url("./fonts/Commissioner-medium.woff") format("woff");
+  src: url("./fonts/Commissioner-Medium.woff2") format("woff2"),
+       url("./fonts/Commissioner-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Commissioner';
   font-style:  normal;
   font-weight: 700;
-  src: url("./fonts/Commissioner-bold.woff2") format("woff2"),
-       url("./fonts/Commissioner-bold.woff") format("woff");
+  src: url("./fonts/Commissioner-Bold.woff2") format("woff2"),
+       url("./fonts/Commissioner-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Commissioner';
   font-style:  normal;
   font-weight: 800;
-  src: url("./fonts/Commissioner-extrabold.woff2") format("woff2"),
-       url("./fonts/Commissioner-extrabold.woff") format("woff");
+  src: url("./fonts/Commissioner-ExtraBold.woff2") format("woff2"),
+       url("./fonts/Commissioner-ExtraBold.woff") format("woff");
 }
 
 @font-face {
