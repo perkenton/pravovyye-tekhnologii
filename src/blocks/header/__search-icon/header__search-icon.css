@@ -1,1 +1,7 @@
-.header__search-icon {}
+.header__search-icon {
+  cursor: pointer;
+}
+
+.header__search-checkbox:checked ~ .header__search-icon-label .header__search-icon {
+  display: none;
+}

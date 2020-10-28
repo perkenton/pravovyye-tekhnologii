@@ -41,7 +41,24 @@
         <li class="header__menu-item"><a href="#" class="header__menu-link">Контакты</a></li>
       </ul>
 
-      <a href="#" class="header__search-icon-link"><img src="<%=require('./images/header-search-icon.svg').default%>" alt="Иконка поиска" class="header__search-icon"></a>
+      <input type="checkbox" id="checkbox" class="header__search-checkbox">
+      <label for="checkbox" class="header__search-icon-label">
+        <img src="<%=require('./images/header-search-icon.svg').default%>" alt="Иконка поиска" class="header__search-icon">
+        <span class="header__search-icon-cross"></span>
+      </label>
+
+      <form name="searchForm" class="header__search-form" id="header__form">
+        <input
+          name="searchInput"
+          type="search"
+          placeholder="Введите запрос"
+          class="header__search-input"
+          pattern="^[а-яА-ЯёЁa-zA-Z0-9\s]{2,}$"
+          required>
+        <button name="searchSubmit" type="submit" class="header__search-button">Искать</button>
+      </form>
+      <!--  TODO узнать у дизайнера как должна выглядить стркоа поиска -->
+
     </nav>
   </header>
 

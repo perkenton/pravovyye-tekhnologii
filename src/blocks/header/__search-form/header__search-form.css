@@ -1,0 +1,13 @@
+.header__search-form {
+  height: 34px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  transition: .2s linear;
+  display: none;
+}
+
+.header__search-checkbox:checked ~ .header__search-form {
+  display: block;
+}

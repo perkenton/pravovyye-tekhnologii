@@ -15,8 +15,14 @@
 @import url(./__menu-item/header__menu-item.css);
 @import url(./__menu-link/header__menu-link.css);
 @import url(./__nav/header__nav.css);
+@import url(./__search-button/header__search-button.css);
+@import url(./__search-checkbox/header__search-checkbox.css);
+@import url(./__search-form/header__search-form.css);
 @import url(./__search-icon/header__search-icon.css);
+@import url(./__search-icon-cross/header__search-icon-cross.css);
+@import url(./__search-icon-label/header__search-icon-label.css);
 @import url(./__search-icon-link/header__search-icon-link.css);
+@import url(./__search-input/header__search-input.css);
 
 .header {
   text-align: center;

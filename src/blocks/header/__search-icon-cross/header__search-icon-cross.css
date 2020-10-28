@@ -1,0 +1,17 @@
+.header__search-icon-cross {
+  width: 18px;
+  height: 18px;
+  background-image: url("../../../images/cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  opacity: .5;
+  transition: .2s linear;
+  display: none;
+}
+
+.header__search-checkbox:checked ~ .header__search-icon-label .header__search-icon-cross {
+  display: block;
+}
