@@ -1,3 +1,8 @@
 .reviews__pagination-item_active {
   background-color: #DEC377;
 }
+
+.reviews__pagination-item_active:hover {
+  transform: scale(1.3);
+  background-color: #DEC377;
+}

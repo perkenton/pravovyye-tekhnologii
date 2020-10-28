@@ -1,4 +1,9 @@
 @import url(./__card/banner__card.css);
+@import url(./__card/_image-first/banner__card_image-first.css);
+@import url(./__card/_image-second/banner__card_image-second.css);
+@import url(./__card/_image-third/banner__card_image-third.css);
+@import url(./__card/_image-fourth/banner__card_image-fourth.css);
+@import url(./__card/_image-fifth/banner__card_image-fifth.css);
 @import url(./__card-arrow-left/banner__card-arrow-left.css);
 @import url(./__card-arrow-right/banner__card-arrow-right.css);
 @import url(./__card-subtitle/banner__card-subtitle.css);

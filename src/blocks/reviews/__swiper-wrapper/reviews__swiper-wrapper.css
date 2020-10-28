@@ -1,1 +1,5 @@
-.reviews__swiper-wrapper {}
+.reviews__swiper-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: 18px;
+}

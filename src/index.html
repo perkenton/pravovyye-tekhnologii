@@ -40,6 +40,7 @@
         <li class="header__menu-item"><a href="#" class="header__menu-link">Инфоцентр</a></li>
         <li class="header__menu-item"><a href="#" class="header__menu-link">Контакты</a></li>
       </ul>
+
       <a href="#" class="header__search-icon-link"><img src="<%=require('./images/header-search-icon.svg').default%>" alt="Иконка поиска" class="header__search-icon"></a>
     </nav>
   </header>
@@ -48,10 +49,42 @@
     <div class="banner__swiper-container">
       <div class="banner__swiper-wrapper">
 
-        <div class="banner__card">
+        <div class="banner__card banner__card_image-first">
           <div class="banner__card-text-container">
             <h1 class="banner__card-title">Взыскание дебиторской задолженности</h1>
             <p class="banner__card-subtitle">Индивидуальный подход и&nbsp;нацеленность на&nbsp;достижение результата</p>
+            <button class="button button_yellow">Подробнее</button>
+          </div>
+        </div>
+
+        <div class="banner__card banner__card_image-second">
+          <div class="banner__card-text-container">
+            <h1 class="banner__card-title">Регистрация ООО</h1>
+            <p class="banner__card-subtitle">Гарантируем минимальные сроки регистрации под ключ</p>
+            <button class="button button_yellow">Подробнее</button>
+          </div>
+        </div>
+
+        <div class="banner__card banner__card_image-third">
+          <div class="banner__card-text-container">
+            <h1 class="banner__card-title">Ликвидация предприятия</h1>
+            <p class="banner__card-subtitle">Эффективное решение сложных задач</p>
+            <button class="button button_yellow">Подробнее</button>
+          </div>
+        </div>
+
+        <div class="banner__card banner__card_image-fourth">
+          <div class="banner__card-text-container">
+            <h1 class="banner__card-title">Юридическая консультация</h1>
+            <p class="banner__card-subtitle">Детальные разъяснения вопросов по&nbsp;ведению бизнеса от&nbsp;профессионалов</p>
+            <button class="button button_yellow">Подробнее</button>
+          </div>
+        </div>
+
+        <div class="banner__card banner__card_image-fifth">
+          <div class="banner__card-text-container">
+            <h1 class="banner__card-title">Юридический аутсорсинг</h1>
+            <p class="banner__card-subtitle">Гарантия своевременности и&nbsp;качества услуг</p>
             <button class="button button_yellow">Подробнее</button>
           </div>
         </div>
@@ -163,16 +196,37 @@
       <p class="principles__text">Быстрота анализа и&nbsp;профессиональных действий наших юристов обеспечивают успешное решение, казалось&nbsp;бы, неразрешимых вопросов. Богатые знания и&nbsp;солидный опыт позволяют нам оказывать комплексную правовую помощь в&nbsp;ситуациях любой сложности.</p>
     </div>
 
-    <div class="principles__swiper-container">
-      <div class="principles__swiper-wrapper">
-        <div class="principles__card">
-          <img src="<%=require('./images/principles-image-1.png').default%>" alt="Фотография сотрудников" class="principles__card-image">
+    <div class="principles__swiper-block">
+      <div class="principles__swiper-container">
+        <div class="principles__swiper-wrapper">
+
+          <div class="principles__card">
+            <img src="<%=require('./images/principles-image-1.png').default%>" alt="Фотография сотрудников" class="principles__card-image">
+          </div>
+
+          <div class="principles__card">
+            <img src="<%=require('./images/principles-image-2.png').default%>" alt="Фотография сотрудников" class="principles__card-image">
+          </div>
+
+          <div class="principles__card">
+            <img src="<%=require('./images/principles-image-3.png').default%>" alt="Фотография сотрудников" class="principles__card-image">
+          </div>
+
+          <div class="principles__card">
+            <img src="<%=require('./images/principles-image-4.png').default%>" alt="Фотография сотрудников" class="principles__card-image">
+          </div>
+
+          <div class="principles__card">
+            <img src="<%=require('./images/principles-image-5.png').default%>" alt="Фотография сотрудников" class="principles__card-image">
+          </div>
+
         </div>
       </div>
 
       <div class="principles__card-arrow-left"></div>
       <div class="principles__card-arrow-right"></div>
     </div>
+
   </section>
 
   <section class="reviews">
@@ -185,7 +239,7 @@
             <div class="reviews__card-text-block">
               <p class="reviews__card-position">директор</p>
               <h3 class="reviews__card-title">С. В. Косачев</h3>
-              <p class="reviews__card-text">Уважаемая Светлана Александровна! Наша компания выражает благодарность и&nbsp;признательность обществу с&nbsp;ограниченной ответственностью &laquo;МК-Правовые технологии&raquo;. Благодаря слаженной работе и&nbsp;высокой квалификации Ваших сотрудников и&nbsp;специалистов компания &laquo;ВиваСтрой&raquo; получила качественные юридические услуги по&nbsp;взысканию денежных средств с&nbsp;должника. Профессионализм работников ООО &laquo;МК-Правовые технологии&raquo;, а&nbsp;также желание работать со&nbsp;сложными и&nbsp;нестандартными задачами является залогом высокоэффективного и&nbsp;успешного взаимодействия наших компаний. Рекомендуем...</p>
+              <p class="reviews__card-text">Уважаемая Светлана Александровна! Наша компания выражает благодарность и&nbsp;признательность обществу с&nbsp;ограниченной ответственностью &laquo;МК-Правовые технологии&raquo;. Благодаря слаженной работе и&nbsp;высокой квалификации Ваших сотрудников и&nbsp;специалистов компания &laquo;ВиваСтрой&raquo; получила качественные юридические услуги по&nbsp;взысканию денежных средств с&nbsp;должника. Профессионализм работников ООО &laquo;МК-Правовые технологии&raquo;, а&nbsp;также желание работать со&nbsp;сложными и&nbsp;нестандартными задачами является залогом высокоэффективного и&nbsp;успешного взаимодействия наших компаний. Рекомендуем специалистов общества с&nbsp;ограниченной ответственностью &laquo;МК-Правовые технологии&raquo; как ответственную и&nbsp;сплоченную команду профессионалов, которая детально проработает каждую поставленную задачу.</p>
               <a href="#" class="reviews__read-more">Читать далее</a>
             </div>
           </div>
@@ -194,7 +248,29 @@
             <div class="reviews__card-text-block">
               <p class="reviews__card-position">глава представительства</p>
               <h3 class="reviews__card-title">Валерий Мяснянкин</h3>
-              <p class="reviews__card-text">Представительство корпорации &laquo;VMSN GROUP, INC.&raquo; (США) в&nbsp;Республике Беларусь на&nbsp;протяжении нескольких лет сотрудничает с&nbsp;ООО &laquo;МК-Правовые технологии&raquo; в&nbsp;рамках сопровождения деятельности по&nbsp;юридическим вопросам, в&nbsp;том числе по&nbsp;вопросам ведения кадрового делопроизводства&nbsp;&mdash; абонентское обслуживание. Хотелось&nbsp;бы отметить работу специалистов ООО &laquo;МК-Правовые технологии&raquo; хорошими теплыми словами: надёжные, обязательные, пунктуальные. Вопросы любой сложности им&nbsp;по&nbsp;плечу. Работая с&nbsp;профессионалами МК-Правовые технологии, всегда можно рассчитывать...</p>
+              <p class="reviews__card-text">Представительство корпорации &laquo;VMSN GROUP, INC.&raquo; (США) в&nbsp;Республике Беларусь на&nbsp;протяжении нескольких лет сотрудничает с&nbsp;ООО &laquo;МК-Правовые технологии&raquo; в&nbsp;рамках сопровождения деятельности по&nbsp;юридическим вопросам, в&nbsp;том числе по&nbsp;вопросам ведения кадрового делопроизводства&nbsp;&mdash; абонентское обслуживание. Хотелось&nbsp;бы отметить работу специалистов ООО &laquo;МК-Правовые технологии&raquo; хорошими теплыми словами: надёжные, обязательные, пунктуальные. Вопросы любой сложности им&nbsp;по&nbsp;плечу. Работая с&nbsp;профессионалами МК-Правовые технологии, всегда можно рассчитывать на&nbsp;своевременную обратную связь и&nbsp;практические советы. Рекомендую компанию ООО &laquo;МК-Правовые технологии&raquo; как надежного партнера!</p>
+              <a href="#" class="reviews__read-more">Читать далее</a>
+            </div>
+          </div>
+
+          <div class="reviews__card">
+            <div class="reviews__card-text-block">
+              <p class="reviews__card-position">старший партнер ГК «ПРОМОКАРТС»</p>
+              <h3 class="reviews__card-title">С. В. Хомянин</h3>
+              <p class="reviews__card-text">ООО &laquo;Промокартс&raquo;, юридическое лицо, входящее в&nbsp;ГК&nbsp;&laquo;ПРОМОКАРТС&raquo; (Российская Федерация) выражает благодарность компании ООО &laquo;МК-Правовые технологии&raquo; за&nbsp;компетентность, оперативность в&nbsp;решении текущих вопросов, а&nbsp;также за&nbsp;качественное и&nbsp;профессиональное выполнение своих обязательств. Хотим отметить высокий профессионализм сотрудников компании, а&nbsp;также высокий уровень и&nbsp;качество обработки входящих запросов. Выражаем свою благодарность за&nbsp;совместную работу и&nbsp;надеемся на&nbsp;дальнейшее плодотворное сотрудничество.</p>
+              <a href="#" class="reviews__read-more">Читать далее</a>
+            </div>
+          </div>
+
+          <div class="reviews__card">
+            <div class="reviews__card-text-block">
+              <p class="reviews__card-position">директор</p>
+              <h3 class="reviews__card-title">Л. В. Громова</h3>
+              <p class="reviews__card-text">Общество с&nbsp;ограниченной ответственностью &laquo;Кроуфорт&raquo; молодая развивающаяся компания в&nbsp;Республике Беларусь. Нами было принято решение обратиться к&nbsp;профессионалам ООО &laquo;МК-правовые технологии&raquo; с&nbsp;вопросом организации бизнеса.
+                Отдельно хочется отметить в&nbsp;работе специалистов компании МК- Правовые технологии индивидуальный подход к&nbsp;каждому клиенту и&nbsp;отсутствие шаблонных решений.
+                Быстро и&nbsp;квалифицированно были закрыты вопросы по&nbsp;регистрации компании, оказана комплексная правовая информационная и&nbsp;организационная поддержка. Сейчас обращаемся в&nbsp;компанию по&nbsp;различным правовым вопросам и&nbsp;все больше убеждаемся в&nbsp;ее&nbsp;богатом практическом опыте в&nbsp;сфере оказания юридических услуг.
+                Кроме профессионализма, особо отмечаем доброжелательность и&nbsp;открытость работников ООО &laquo;МК-Правовые технологии&raquo;.
+                Огромное спасибо за&nbsp;поддержку в&nbsp;настоящее время!</p>
               <a href="#" class="reviews__read-more">Читать далее</a>
             </div>
           </div>

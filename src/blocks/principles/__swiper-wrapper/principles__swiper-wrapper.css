@@ -1,1 +1,4 @@
-.principles__swiper-wrapper {}
+.principles__swiper-wrapper {
+  display: flex;
+  justify-content: center;
+}

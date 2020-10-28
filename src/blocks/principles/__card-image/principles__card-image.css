@@ -1,1 +1,3 @@
-.principles__card-image {}
+.principles__card-image {
+  max-width: 100%;
+}
