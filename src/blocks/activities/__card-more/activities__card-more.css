@@ -1,4 +1,5 @@
 .activities__card-more {
+  width: max-content;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -15,4 +16,8 @@
 
 .activities__card-more:hover {
   color: #DEC377;
+}
+
+.activities__card-more:focus {
+  outline: 1px dotted #dec377;
 }

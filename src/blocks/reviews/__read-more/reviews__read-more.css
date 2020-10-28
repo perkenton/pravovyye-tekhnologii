@@ -1,4 +1,5 @@
 .reviews__read-more {
+  width: max-content;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -17,4 +18,8 @@
 
 .reviews__read-more:hover {
   color: #DEC377;
+}
+
+.reviews__read-more:focus {
+  outline: 1px dotted #dec377;
 }

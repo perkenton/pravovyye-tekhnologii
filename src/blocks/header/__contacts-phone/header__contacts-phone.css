@@ -18,3 +18,7 @@
 .header__contacts-phone:hover {
   color: #DEC377;
 }
+
+.header__contacts-phone:focus {
+  outline: 1px dotted #dec377;
+}

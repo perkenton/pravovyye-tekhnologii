@@ -6,3 +6,7 @@
 .footer__about-block-icon-link:hover {
  filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.4));
 }
+
+.footer__about-block-icon-link:focus {
+  outline: 1px dotted #dec377;
+}

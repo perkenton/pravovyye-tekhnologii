@@ -14,3 +14,7 @@
 .header__menu-link:hover {
   color: #DEC377;
 }
+
+.header__menu-link:focus {
+  outline: 1px dotted #dec377;
+}

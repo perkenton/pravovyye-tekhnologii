@@ -17,3 +17,7 @@
 .services__card-more:hover {
   color: #DEC377;
 }
+
+.services__card-more:focus {
+  outline: 1px dotted #dec377;
+}

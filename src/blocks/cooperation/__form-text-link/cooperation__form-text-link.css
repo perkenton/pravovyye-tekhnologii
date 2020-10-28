@@ -13,3 +13,7 @@
   text-decoration: none;
   color: #DEC377;
 }
+
+.cooperation__form-text-link:focus {
+  outline: 1px dotted #dec377;
+}

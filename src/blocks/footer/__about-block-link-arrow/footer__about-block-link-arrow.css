@@ -26,3 +26,7 @@
 .footer__about-block-link-arrow:hover::after {
   right: -85px;
 }
+
+.footer__about-block-link-arrow:focus {
+  outline: 1px dotted #dec377;
+}

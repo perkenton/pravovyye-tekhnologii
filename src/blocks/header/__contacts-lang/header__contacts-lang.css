@@ -11,3 +11,7 @@
 .header__contacts-lang:hover {
   color: #DEC377;
 }
+
+.header__contacts-lang:focus {
+  outline: 1px dotted #dec377;
+}
