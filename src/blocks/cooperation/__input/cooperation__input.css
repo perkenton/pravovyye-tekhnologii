@@ -5,6 +5,7 @@
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   transition: .2s linear;
+  margin-bottom: 20px;
 }
 
 .cooperation__input:focus {

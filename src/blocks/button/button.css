@@ -1,6 +1,7 @@
 @import url(./_bottom-position/button_bottom-position.css);
 @import url(./_white/button_white.css);
 @import url(./_yellow/button_yellow.css);
+@import url(./_yellow/_wide/button_yellow_wide.css);
 @import url(./_max-width/button_max-width.css);
 
 .button {

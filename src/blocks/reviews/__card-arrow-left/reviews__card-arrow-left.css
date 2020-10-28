@@ -8,8 +8,8 @@
   z-index: 1;
   cursor: pointer;
   position: absolute;
-  bottom: 0;
-  right: 74px;
+  bottom: 4px;
+  right: 85px;
   transition: .2s linear;
 }
 

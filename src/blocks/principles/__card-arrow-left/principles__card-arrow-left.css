@@ -9,7 +9,7 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  left: -42px;
+  left: -60px;
   transform: translateY(-50%);
   transition: .2s linear;
 }

@@ -8,12 +8,12 @@
   z-index: 1;
   cursor: pointer;
   position: absolute;
-  bottom: 121px;
+  bottom: 118px;
   left: 50%;
-  transform: translateX(-580px);
+  transform: translateX(-562px);
   transition: .2s linear;
 }
 
 .banner__card-arrow-left:hover {
-  transform: translateX(-580px) scale(1.3);
+  transform: translateX(-562px) scale(1.3);
 }
