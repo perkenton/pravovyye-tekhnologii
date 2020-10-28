@@ -58,10 +58,10 @@ module.exports = {
                 progressive: true,
                 quality: 65
               },
-              pngquant: {
-                quality: [0.65, 0.90],
-                speed: 4
-              },
+              // pngquant: {
+              //   quality: [0.90, 0.90],
+              //   speed: 4
+              // },
               gifsicle: {
                 interlaced: false,
               },
