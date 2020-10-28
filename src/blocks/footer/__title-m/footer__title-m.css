@@ -1,0 +1,12 @@
+.footer__title-m {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-bottom: 5px;
+}

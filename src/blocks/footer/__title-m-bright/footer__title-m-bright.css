@@ -1,0 +1,12 @@
+.footer__title-m-bright {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 0;
+  margin-bottom: 10px;
+}

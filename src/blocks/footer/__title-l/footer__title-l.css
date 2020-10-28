@@ -1,0 +1,9 @@
+.footer__title-l {
+  font-family: 'Commissioner', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 70px;
+}

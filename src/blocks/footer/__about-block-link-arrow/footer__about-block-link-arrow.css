@@ -1,1 +1,28 @@
-.footer__about-block-link-arrow {}
+.footer__about-block-link-arrow {
+
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75);
+  position: relative;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.footer__about-block-link-arrow::after {
+  content: url("../../../images/long-arrow-right.svg");
+  position: absolute;
+  top: 50%;
+  right: -75px;
+  transform: translateY(-50%);
+  transition: .3s linear;
+}
+
+.footer__about-block-link-arrow:hover::after {
+  right: -85px;
+}

@@ -23,15 +23,15 @@
 
       <div class="header__contacts-phone-block">
         <a href="tel:+375447550101" class="header__contacts-phone">+375 (44) 755-01-01</a>
-        <img src="<%=require('./images/header-a1-icon.svg').default%>" alt="" class="header__contacts-phone-icon">
-        <img src="<%=require('./images/header-viber-icon.svg').default%>" alt="" class="header__contacts-phone-icon">
-        <img src="<%=require('./images/header-whatsapp-icon.svg').default%>" alt="" class="header__contacts-phone-icon">
+        <img src="<%=require('./images/header-a1-icon.svg').default%>" alt="Логотипа А1" class="header__contacts-phone-icon">
+        <img src="<%=require('./images/header-viber-icon.svg').default%>" alt="Логотип Вайбера" class="header__contacts-phone-icon">
+        <img src="<%=require('./images/header-whatsapp-icon.svg').default%>" alt="Логотип Вотсаппа" class="header__contacts-phone-icon">
         <a href="tel:+375295500101" class="header__contacts-phone">+375 (29) 550-01-01</a>
-        <img src="<%=require('./images/header-mts-icon.svg').default%>" alt="" class="header__contacts-phone-icon">
+        <img src="<%=require('./images/header-mts-icon.svg').default%>" alt="Логотип МТС" class="header__contacts-phone-icon">
       </div>
     </div>
     <nav class="header__nav">
-      <img src="<%=require('./images/logo.svg').default%>" alt="Логотип «МК-ПРАВОВЫЕ ТЕХНОЛОГИИ»" class="header__logo">
+      <a href="./" class="header__logo-link"><img src="<%=require('./images/logo.svg').default%>" alt="Логотип «МК-ПРАВОВЫЕ ТЕХНОЛОГИИ»" class="header__logo"></a>
       <ul class="header__menu">
         <li class="header__menu-item"><a href="" class="header__menu-link">Главная</a></li>
         <li class="header__menu-item"><a href="" class="header__menu-link">О нас</a></li>
@@ -399,38 +399,91 @@
       <button class="button button_yellow">Тарифы</button>
   </section>
 
-<!--  <footer class="footer">-->
-<!--    <div class="footer__wrapper">-->
-<!--      <div class="footer__about-block">-->
-<!--        <h2 class="footer__about-block-title"></h2>-->
-<!--        <p class="footer__about-block-text"><span class="footer__about-block-subtitle"></span></p>-->
-<!--        <div class="footer__about-block-icons">-->
-<!--          <img src="" alt="" class="footer__about-block-icon">-->
-<!--        </div>-->
-<!--        <a href="" class="footer__about-block-link-arrow"></a>-->
-<!--      </div>-->
-<!--    </div>-->
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__about-block">
+        <h2 class="footer__title-l">ООО &laquo;МК-ПРАВОВЫЕ ТЕХНОЛОГИИ&raquo;</h2>
+        <p class="footer__about-block-text"><span class="footer__about-block-subtitle">УНП </span>192710862</p>
+        <p class="footer__about-block-text"><span class="footer__about-block-subtitle">Наш рейтинг </span>5&nbsp;из&nbsp;5 (15&nbsp;отзывов)</p>
+        <div class="footer__about-block-icons">
+          <a href="#" target="_blank" class="footer__about-block-icon-link"><img src="<%=require('./images/footer-icon-vk.svg').default%>" alt="" class="footer__about-block-icon"></a>
+          <a href="#" target="_blank" class="footer__about-block-icon-link"><img src="<%=require('./images/footer-icon-ok.svg').default%>" alt="" class="footer__about-block-icon"></a>
+          <a href="#" target="_blank" class="footer__about-block-icon-link"><img src="<%=require('./images/footer-icon-in.svg').default%>" alt="" class="footer__about-block-icon"></a>
+          <a href="#" target="_blank" class="footer__about-block-icon-link"><img src="<%=require('./images/footer-icon-insta.svg').default%>" alt="" class="footer__about-block-icon"></a>
+          <a href="#" target="_blank" class="footer__about-block-icon-link"><img src="<%=require('./images/footer-icon-youtube.svg').default%>" alt="" class="footer__about-block-icon"></a>
+          <a href="#" target="_blank" class="footer__about-block-icon-link"><img src="<%=require('./images/footer-icon-fb.svg').default%>" alt="" class="footer__about-block-icon"></a>
+        </div>
+        <a href="" class="footer__about-block-link-arrow footer__about-block-link-arrow_width-s">Карта сайта</a>
+        <a href="" class="footer__about-block-link-arrow footer__about-block-link-arrow_width-l">Политика конфиденциальности</a>
+      </div>
 
-<!--    <div class="footer__contacts">-->
-<!--      <h2 class="footer__contacts-title"></h2>-->
-<!--      <div class="footer__contacts-offices">-->
-<!--        <div class="footer__contacts-card">-->
-<!--          <h3 class="footer__contacts-title"></h3>-->
-<!--          <p class="footer__contacts-text"></p>-->
-<!--          <p class="footer__contacts-subtitle"></p>-->
-<!--          <a href="" class="footer__contacts-link"></a>-->
-<!--        </div>-->
-<!--      </div>-->
+      <div class="footer__contacts">
+        <h2 class="footer__title-m">Наши офисы</h2>
+        <div class="footer__contacts-offices">
+          <div class="footer__contacts-card">
+            <h3 class="footer__title-m-bright">Контакты в&nbsp;Минске</h3>
+            <p class="footer__contacts-text">+375 (44) 755-01-01</p>
+            <p class="footer__contacts-text">+375 (29) 550-01-01</p>
+            <p class="footer__contacts-text">+375 (17) 374-40-60</p>
+            <p class="footer__title-s">Адрес</p>
+            <p class="footer__contacts-text">г.&nbsp;Минск, ул.&nbsp;Широкая, д.&nbsp;3, пом.&nbsp;146, оф.&nbsp;4</p>
+            <p class="footer__title-s">Телефон для связи резидентов Российской Федерации</p>
+            <p class="footer__contacts-text">whatsapp +7 (989) 166-24-00</p>
+            <a href="mailto:info@jurisprudent.by" class="footer__contacts-link">info@jurisprudent.by</a>
+          </div>
 
-<!--      <div class="footer__working-hours">-->
-<!--        <h2 class="footer__contacts-title"></h2>-->
-<!--        <p class="footer__contacts-subtitle"></p>-->
-<!--        <p class="footer__contacts-text"></p>-->
-<!--      </div>-->
-<!--    </div>-->
+          <div class="footer__contacts-card">
+            <h3 class="footer__title-m-bright">Контакты в&nbsp;Могилеве</h3>
+            <p class="footer__title-s">Адрес</p>
+            <p class="footer__contacts-text">г.&nbsp;Могилев, ул.&nbsp;Космонавтов, д.&nbsp;19, оф.&nbsp;507</p>
+            <a href="mailto:mogilev@jurisprudent.by" class="footer__contacts-link">mogilev@jurisprudent.by</a>
 
-<!--    <p class="footer__web-focus"></p>-->
-<!--  </footer>-->
+            <h3 class="footer__title-m-bright">Контакты в&nbsp;Бресте</h3>
+            <p class="footer__title-s">Адрес</p>
+            <p class="footer__contacts-text">г.&nbsp;Брест, б-р&nbsp;Шевченко, д.&nbsp;4, оф.&nbsp;401</p>
+            <a href="mailto:brest@jurisprudent.by" class="footer__contacts-link">brest@jurisprudent.by</a>
+
+            <h3 class="footer__title-m-bright">Контакты в&nbsp;Витебске</h3>
+            <p class="footer__title-s">Адрес</p>
+            <p class="footer__contacts-text">г.&nbsp;Витебск, ул.&nbsp;Гоголя, д.&nbsp;14, оф.&nbsp;614</p>
+            <a href="mailto:vitebsk@jurisprudent.by" class="footer__contacts-link">vitebsk@jurisprudent.by</a>
+          </div>
+
+          <div class="footer__contacts-card">
+            <h3 class="footer__title-m-bright">Контакты в&nbsp;Гродно</h3>
+            <p class="footer__title-s">Адрес</p>
+            <p class="footer__contacts-text">г.&nbsp;Гродно, ул.&nbsp;Карла Маркса, д.&nbsp;31-1, оф.&nbsp;1010</p>
+            <a href="mailto:grodno@jurisprudent.by" class="footer__contacts-link">grodno@jurisprudent.by</a>
+
+            <h3 class="footer__title-m-bright">Контакты в&nbsp;Гомеле</h3>
+            <p class="footer__title-s">Адрес</p>
+            <p class="footer__contacts-text">г.&nbsp;Гомель, пр.&nbsp;Ленина, д.&nbsp;10, оф.&nbsp;901</p>
+            <a href="mailto:gomel@jurisprudent.by" class="footer__contacts-link">gomel@jurisprudent.by</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__working-hours-wrapper">
+        <h2 class="footer__title-m">Время работы</h2>
+        <div class="footer__working-hours">
+          <p class="footer__title-s">Прием посетителей</p>
+          <p class="footer__contacts-text">Ежедневно с&nbsp;8:00 до&nbsp;19:00</p>
+          <p class="footer__contacts-text">Выходной: суббота&ndash;воскресенье</p>
+
+          <p class="footer__title-s footer__title-s_margin-top-l">Прием звонков</p>
+          <p class="footer__contacts-text">Ежедневно с&nbsp;8:00 до&nbsp;22:00</p>
+          <p class="footer__contacts-text">Без выходных</p>
+
+          <p class="footer__title-s footer__title-s_margin-top-l">Онлайн консультант</p>
+          <p class="footer__contacts-text">Круглосуточно 24/7</p>
+          <p class="footer__contacts-text">Без выходных</p>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="footer__web-focus">Разработка и&nbsp;продвижение сайта&nbsp;&mdash; Digital агентство &laquo;<a href="https://webfocus.by" target="_blank" class="footer__web-focus-link">Веб Фокус</a>&raquo;</p>
+  </footer>
 </div>
 
 </body>

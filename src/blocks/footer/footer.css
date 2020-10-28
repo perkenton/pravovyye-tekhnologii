@@ -1,19 +1,29 @@
 @import url(./__about-block/footer__about-block.css);
 @import url(./__about-block-icon/footer__about-block-icon.css);
+@import url(./__about-block-icon-link/footer__about-block-icon-link.css);
 @import url(./__about-block-icons/footer__about-block-icons.css);
 @import url(./__about-block-link-arrow/footer__about-block-link-arrow.css);
+@import url(./__about-block-link-arrow/_width-l/footer__about-block-link-arrow_width-l.css);
+@import url(./__about-block-link-arrow/_width-s/footer__about-block-link-arrow_width-s.css);
 @import url(./__about-block-subtitle/footer__about-block-subtitle.css);
 @import url(./__about-block-text/footer__about-block-text.css);
-@import url(./__about-block-title/footer__about-block-title.css);
 @import url(./__contacts/footer__contacts.css);
 @import url(./__contacts-card/footer__contacts-card.css);
 @import url(./__contacts-link/footer__contacts-link.css);
 @import url(./__contacts-offices/footer__contacts-offices.css);
-@import url(./__contacts-subtitle/footer__contacts-subtitle.css);
 @import url(./__contacts-text/footer__contacts-text.css);
-@import url(./__contacts-title/footer__contacts-title.css);
+@import url(./__title-l/footer__title-l.css);
+@import url(./__title-m/footer__title-m.css);
+@import url(./__title-m-bright/footer__title-m-bright.css);
+@import url(./__title-s/footer__title-s.css);
+@import url(./__title-s/_margin-top-l/footer__title-s_margin-top-l.css);
 @import url(./__web-focus/footer__web-focus.css);
+@import url(./__web-focus-link/footer__web-focus-link.css);
 @import url(./__working-hours/footer__working-hours.css);
+@import url(./__working-hours-wrapper/footer__working-hours-wrapper.css);
 @import url(./__wrapper/footer__wrapper.css);
 
-.footer {}
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 50px;
+}

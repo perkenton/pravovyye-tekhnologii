@@ -1,1 +1,7 @@
-.footer__contacts-offices {}
+.footer__contacts-offices {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 35px;
+}

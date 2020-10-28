@@ -1,1 +1,9 @@
-.footer__wrapper {}
+.footer__wrapper {
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: 270px 670px 170px;
+  grid-gap: 30px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}

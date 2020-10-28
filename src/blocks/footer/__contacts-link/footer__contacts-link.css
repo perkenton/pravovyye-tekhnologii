@@ -1,1 +1,16 @@
-.footer__contacts-link {}
+.footer__contacts-link {
+  font-family: 'Commissioner', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  transition: .2s linear;
+  display: inline-block;
+  margin-bottom: 35px;
+}
+
+.footer__contacts-link:hover {
+  color: #DEC377;
+}
